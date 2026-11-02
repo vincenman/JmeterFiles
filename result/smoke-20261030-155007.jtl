@@ -1,0 +1,37 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1793346609222,654,00 Pre-flight,200,OK,wtd upload 1-1,text,true,,13,0,1,1,0,0,0
+1793346609936,245,0101 GET index,200,OK,wtd upload 1-1,text,true,,32865,131,1,1,241,0,172
+1793346610187,54,0102 POST checkResult (browser config gate),200,OK,wtd upload 1-1,text,true,,8071,717,1,1,54,0,0
+1793346610242,52,0103 POST index (preAction=login),200,OK,wtd upload 1-1,text,true,,32863,403,1,1,51,0,0
+1793346610298,47,0104 GET security/login (load login form),200,OK,wtd upload 1-1,text,true,,18227,220,1,1,47,0,0
+1793346610376,207,0107 POST security/login,200,OK,wtd upload 1-1,text,true,,25600,651,1,1,45,0,0
+1793346610376,45,0107 POST security/login-0,302,Found,wtd upload 1-1,,true,,1596,423,1,1,45,0,0
+1793346610426,157,0107 POST security/login-1,200,OK,wtd upload 1-1,text,true,,24004,228,1,1,157,0,0
+1793346609878,605,01 Login (config gate; captcha disabled),200,"Number of samples in transaction : 5, number of failing samples : 0",wtd upload 1-1,,true,,117626,2122,1,1,438,103,172
+1793346610586,67,0201 GET 001s0,200,OK,wtd upload 1-1,text,true,,19731,234,1,1,67,0,0
+1793346610655,126,0202 POST 001s0 Next,200,OK,wtd upload 1-1,text,true,,24930,615,1,1,45,0,0
+1793346610655,45,0202 POST 001s0 Next-0,302,Found,wtd upload 1-1,,true,,1602,381,1,1,45,0,0
+1793346610700,81,0202 POST 001s0 Next-1,200,OK,wtd upload 1-1,text,true,,23328,234,1,1,80,0,0
+1793346610586,193,02 Wizard 001s0 Overview,200,"Number of samples in transaction : 2, number of failing samples : 0",wtd upload 1-1,,true,,44661,849,1,1,112,4,0
+1793346610784,67,0301 GET 001s1,200,OK,wtd upload 1-1,text,true,,23328,234,1,1,67,0,0
+1793346610852,126,0302 POST 001s1 accept terms,200,OK,wtd upload 1-1,text,true,,24756,655,1,1,37,0,0
+1793346610852,37,0302 POST 001s1 accept terms-0,302,Found,wtd upload 1-1,,true,,1602,421,1,1,37,0,0
+1793346610891,87,0302 POST 001s1 accept terms-1,200,OK,wtd upload 1-1,text,true,,23154,234,1,1,86,0,0
+1793346610783,194,03 Wizard 001s1 Terms,200,"Number of samples in transaction : 2, number of failing samples : 0",wtd upload 1-1,,true,,48084,889,1,1,104,2,0
+1793346611012,496,0401 POST bUpload_x,200,OK,wtd upload 1-1,text,true,,1693,30010164,1,1,496,0,0
+1793346611598,370,0401 POST bUpload_x,200,OK,wtd upload 1-1,text,true,,1693,30010144,1,1,370,0,0
+1793346610979,866,04 Upload transaction data (x N),200,"Number of samples in transaction : 2, number of failing samples : 0",wtd upload 1-1,,true,,3386,60020308,1,1,866,125,0
+1793346611971,60,0501 GET 001s2 reload,200,OK,wtd upload 1-1,text,true,,23154,234,1,1,59,0,0
+1793346611970,60,05 Verify upload list (no persistence),200,"Number of samples in transaction : 1, number of failing samples : 0",wtd upload 1-1,,true,,23154,234,1,1,59,98,0
+1793346612322,11,0600 WARN persist mode,200,OK,wtd upload 1-1,text,true,,20,0,1,1,0,0,0
+1793346612335,2196,0601 POST 001s2 Next (persist rows),200,OK,wtd upload 1-1,text,true,,24311,882,1,1,2136,0,0
+1793346612335,2136,0601 POST 001s2 Next (persist rows)-0,302,Found,wtd upload 1-1,,true,,1602,599,1,1,2136,0,0
+1793346614472,59,0601 POST 001s2 Next (persist rows)-1,200,OK,wtd upload 1-1,text,true,,22709,283,1,1,59,0,0
+1793346614532,64,0602 POST 001s3 Back,200,OK,wtd upload 1-1,text,true,,24769,625,1,1,7,0,0
+1793346614532,7,0602 POST 001s3 Back-0,302,Found,wtd upload 1-1,,true,,1602,391,1,1,7,0,0
+1793346614539,57,0602 POST 001s3 Back-1,200,OK,wtd upload 1-1,text,true,,23167,234,1,1,57,0,0
+1793346614598,55,0603 POST 001s2 Empty All (TR1_count=0),200,OK,wtd upload 1-1,text,true,,23170,393,1,1,55,0,0
+1793346614654,74,0604 GET 001s3 (verify),200,OK,wtd upload 1-1,text,false,001s3 not reachable after the persist run,24769,468,1,1,18,0,0
+1793346614654,18,0604 GET 001s3 (verify)-0,302,Found,wtd upload 1-1,,true,,1602,234,1,1,18,0,0
+1793346614673,55,0604 GET 001s3 (verify)-1,200,OK,wtd upload 1-1,text,true,,23167,234,1,1,55,0,0
+1793346614729,12,99 Run summary,200,OK,wtd upload 1-1,text,true,,20,0,1,1,0,0,0

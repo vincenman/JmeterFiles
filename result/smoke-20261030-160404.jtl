@@ -1,0 +1,26 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1793347446097,632,00 Pre-flight,200,OK,wtd upload 1-1,text,true,,13,0,1,1,0,0,0
+1793347446779,250,0101 GET index,200,OK,wtd upload 1-1,text,true,,32865,131,1,1,246,0,178
+1793347447033,78,0102 POST checkResult (browser config gate),200,OK,wtd upload 1-1,text,true,,8071,717,1,1,78,0,0
+1793347447113,76,0103 POST index (preAction=login),200,OK,wtd upload 1-1,text,true,,32863,403,1,1,73,0,0
+1793347447191,42,0104 GET security/login (load login form),200,OK,wtd upload 1-1,text,true,,18226,220,1,1,42,0,0
+1793347447250,282,0107 POST security/login,200,OK,wtd upload 1-1,text,true,,25600,649,1,1,65,0,0
+1793347447250,65,0107 POST security/login-0,302,Found,wtd upload 1-1,,true,,1596,421,1,1,65,0,0
+1793347447317,215,0107 POST security/login-1,200,OK,wtd upload 1-1,text,true,,24004,228,1,1,214,0,0
+1793347446730,728,01 Login (config gate; captcha disabled),200,"Number of samples in transaction : 5, number of failing samples : 0",wtd upload 1-1,,true,,117625,2120,1,1,504,75,178
+1793347447533,76,0201 GET 001s0,200,OK,wtd upload 1-1,text,true,,19731,234,1,1,76,0,0
+1793347447610,93,0202 POST 001s0 Next,200,OK,wtd upload 1-1,text,true,,24930,615,1,1,30,0,0
+1793347447610,30,0202 POST 001s0 Next-0,302,Found,wtd upload 1-1,,true,,1602,381,1,1,30,0,0
+1793347447640,63,0202 POST 001s0 Next-1,200,OK,wtd upload 1-1,text,true,,23328,234,1,1,63,0,0
+1793347447533,169,02 Wizard 001s0 Overview,200,"Number of samples in transaction : 2, number of failing samples : 0",wtd upload 1-1,,true,,44661,849,1,1,106,2,0
+1793347447704,88,0301 GET 001s1,200,OK,wtd upload 1-1,text,true,,23328,234,1,1,87,0,0
+1793347447792,128,0302 POST 001s1 accept terms,200,OK,wtd upload 1-1,text,true,,24769,655,1,1,54,0,0
+1793347447792,54,0302 POST 001s1 accept terms-0,302,Found,wtd upload 1-1,,true,,1602,421,1,1,54,0,0
+1793347447847,73,0302 POST 001s1 accept terms-1,200,OK,wtd upload 1-1,text,true,,23167,234,1,1,73,0,0
+1793347447704,216,03 Wizard 001s1 Terms,200,"Number of samples in transaction : 2, number of failing samples : 0",wtd upload 1-1,,true,,48097,889,1,1,141,1,0
+1793347447942,967,0401 POST bUpload_x,200,OK,wtd upload 1-1,text,true,,1693,30010164,1,1,967,0,0
+1793347448959,801,0401 POST bUpload_x,200,OK,wtd upload 1-1,text,true,,1693,30010172,1,1,799,0,0
+1793347447921,1768,04 Upload transaction data (x N),200,"Number of samples in transaction : 2, number of failing samples : 0",wtd upload 1-1,,true,,3386,60020336,1,1,1766,72,0
+1793347449762,123,0501 GET 001s2 reload,200,OK,wtd upload 1-1,text,true,,23167,234,1,1,123,0,0
+1793347449761,123,05 Verify upload list (no persistence),200,"Number of samples in transaction : 1, number of failing samples : 0",wtd upload 1-1,,true,,23167,234,1,1,123,79,0
+1793347449971,18,99 Run summary,200,OK,wtd upload 1-1,text,true,,20,0,1,1,0,0,0

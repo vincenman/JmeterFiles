@@ -1,0 +1,32 @@
+Please design the loading test for Jmeter.
+1.	Login (https://10.12.128.248:7012/MSOSE/index) with (ID: JL0003, Password: abcd1234)
+2.	Goto First Page (wtd/001s0) (https://10.12.128.248:7012/MSOSE/wtd/001s0-2)
+3.	Goto Terms and condition (wtd/001s1) (https://10.12.128.248:7012/MSOSE/wtd/001s1-2)
+4.	Goto Upload Transaction Data File (wtd/001s2) (https://10.12.128.248:7012/MSOSE/wtd/001s2-2)
+5.	Upload 30MB files 30   (Please use the file LIC_APP_TBL.xlsx as default, configurable)
+6.	Goto Upload Supporting Documents (wtd/001s3) (https://10.12.128.248:7012/MSOSE/wtd/001s3-2)
+7.	Goto Upload Transaction Data File (wtd/001s2) (https://10.12.128.248:7012/MSOSE/wtd/001s2-2)
+8.	Empty All Upload Files
+9.	Goto Upload Supporting Documents (wtd/001s3) (https://10.12.128.248:7012/MSOSE/wtd/001s3-2)
+
+Transaction and Customer Data File Submission
+=========================================
+Upload Full Customer List (Regular)
+    https://10.12.128.248:7012/MSOSE/wtd/001s0-84
+Upload Transaction summary
+    https://10.12.128.248:7012/MSOSE/wtd/001s0-2
+Upload Full Customer List (Ad Hoc) (16/9/2026)
+    https://10.12.128.248:7012/MSOSE/wtd/001s0-41
+Upload Full Customer List (Ad Hoc) (17/9/2026)
+    https://10.12.128.248:7012/MSOSE/wtd/001s0-42
+
+
+SET VARIABLE
+========================
+set PERSIST_UPLOADS=true   
+run_wtd_load_test.cmd smoke 
+
+
+CLEAR 
+==========================
+set PERSIST_UPLOADS   

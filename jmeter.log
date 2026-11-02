@@ -1,0 +1,37 @@
+2026-11-02 09:50:08,652 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-02 09:50:08,666 INFO o.a.j.JMeter: Loading user properties from: C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\apache-jmeter-5.5\bin\user.properties
+2026-11-02 09:50:08,666 INFO o.a.j.JMeter: Loading system properties from: C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\apache-jmeter-5.5\bin\system.properties
+2026-11-02 09:50:08,670 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: Version 5.5
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: java.version=17.0.7
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: os.name=Windows 10
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: os.version=10.0
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: file.encoding=MS950
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: java.awt.headless=null
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-02 09:50:08,671 INFO o.a.j.JMeter: Available Processors =12
+2026-11-02 09:50:08,677 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-02 09:50:08,677 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-02 09:50:08,677 INFO o.a.j.JMeter: JMeterHome=C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\apache-jmeter-5.5
+2026-11-02 09:50:08,677 INFO o.a.j.JMeter: user.dir  =C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\20261027
+2026-11-02 09:50:08,678 INFO o.a.j.JMeter: PWD       =C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\20261027
+2026-11-02 09:50:08,679 INFO o.a.j.JMeter: IP: 10.12.116.136 Name: WX10603 FullName: WX10603.ad.customs.hksarg
+2026-11-02 09:50:08,684 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-11-02 09:50:09,515 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2026-11-02 09:50:27,996 INFO o.a.j.s.FileServer: Default base='C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\20261027'
+2026-11-02 09:50:27,997 INFO o.a.j.g.a.Load: Loading file: C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\20261027\MSOSE_UAT_wtd_upload_load_test_v2.jmx
+2026-11-02 09:50:27,997 INFO o.a.j.s.FileServer: Set new base='C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\20261027'
+2026-11-02 09:50:28,091 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-02 09:50:28,106 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-02 09:50:28,107 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-02 09:50:28,107 INFO o.a.j.s.SaveService: Loading file: C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\20261027\MSOSE_UAT_wtd_upload_load_test_v2.jmx
+2026-11-02 09:50:28,123 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-11-02 09:50:28,128 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-02 09:50:28,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-02 09:50:28,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-02 09:50:28,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-02 09:50:28,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-02 09:50:28,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-02 09:50:29,057 INFO o.a.j.s.FileServer: Set new base='C:\Users\VINCENT_WF_MAN\Documents\Software\apache-jmeter-5.5\20261027'
