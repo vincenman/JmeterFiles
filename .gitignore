@@ -1,3 +1,5 @@
 *.env
 *.
 ARCHIVE/
+report/
+result/

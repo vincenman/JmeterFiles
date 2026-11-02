@@ -312,7 +312,7 @@ SampleResult.setResponseData(&apos;PRE-FLIGHT OK&apos;, &apos;UTF-8&apos;)</stri
                 <stringProp name="49586">200</stringProp>
               </collectionProp>
               <stringProp name="Assertion.custom_message"></stringProp>
-              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
               <intProp name="Assertion.test_type">8</intProp>
             </ResponseAssertion>
@@ -339,7 +339,7 @@ SampleResult.setResponseData(&apos;PRE-FLIGHT OK&apos;, &apos;UTF-8&apos;)</stri
                 </elementProp>
                 <elementProp name="token" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">struts.token.name</stringProp>
+                  <stringProp name="Argument.value">${csrfToken}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">token</stringProp>
@@ -353,7 +353,7 @@ SampleResult.setResponseData(&apos;PRE-FLIGHT OK&apos;, &apos;UTF-8&apos;)</stri
                 </elementProp>
                 <elementProp name="nextBtn_" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">nextBtn_</stringProp>
+                  <stringProp name="Argument.value">Home</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">nextBtn_</stringProp>
@@ -364,7 +364,7 @@ SampleResult.setResponseData(&apos;PRE-FLIGHT OK&apos;, &apos;UTF-8&apos;)</stri
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">${index}/index</stringProp>
+            <stringProp name="HTTPSampler.path">${base}/index</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -382,7 +382,7 @@ SampleResult.setResponseData(&apos;PRE-FLIGHT OK&apos;, &apos;UTF-8&apos;)</stri
               <stringProp name="Assertion.custom_message"></stringProp>
               <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
-              <intProp name="Assertion.test_type">6</intProp>
+              <intProp name="Assertion.test_type">8</intProp>
             </ResponseAssertion>
             <hashTree/>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="assert config gate cleared" enabled="true">
@@ -390,7 +390,7 @@ SampleResult.setResponseData(&apos;PRE-FLIGHT OK&apos;, &apos;UTF-8&apos;)</stri
                 <stringProp name="-426867391">configModel.browser</stringProp>
               </collectionProp>
               <stringProp name="Assertion.custom_message">still on the browser-config page after the gate POST</stringProp>
-              <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
               <intProp name="Assertion.test_type">6</intProp>
             </ResponseAssertion>
@@ -498,19 +498,13 @@ SampleResult.setResponseData(&apos;PRE-FLIGHT OK&apos;, &apos;UTF-8&apos;)</stri
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">mso.passwd</stringProp>
                 </elementProp>
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value"></stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                </elementProp>
               </collectionProp>
             </elementProp>
             <stringProp name="HTTPSampler.domain"></stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path"></stringProp>
+            <stringProp name="HTTPSampler.path">${base}/security/login</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
